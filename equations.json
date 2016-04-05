@@ -1,0 +1,153 @@
+{
+    "inch": 25.4,
+    "mm": 1,
+    "endBlockExtentX": 74,
+    "endBlockExtentY": 22,
+    "trolleyExtentX": 73,
+    "trolleyExtentY": 69,
+    "endBlockWayEmbedmentY": 10,
+    "motorMountPlateThickness": 6,
+    "mountPlatesGussetThickness": 6,
+    "endblockMountPlateThickness": 6,
+    "motorMountPlateShaftClearanceHoleDiameter": 10,
+    "motorMountPlatePocketDiameter": 24.8,
+    "motorMountPlatePocketDepth": 2.4,
+    "motorMountScrewClearanceHoleDiameter": 3.5,
+    "endblockMountPlateLeadScrewClearanceHoleDiameter": 13,
+    "motorBracketExtentX": 80,
+    "slabToSubstrateMountHolesIntervalX": 80,
+    "pedestalToSubstrateMountHolesIntervalX": 120,
+    "slabToSubstrateMountHolesDiameter": 10.3,
+    "slabToSubstrateMountScrewClampingDiameter": 30,
+    "bracketToEndblockMountScrewHeadRecessDepth": 9,
+    "bracketToEndblockMountScrewHeadRecessDiameter": 14.2,
+    "bracketToEndblockMountScrewClampedMeatThickness": 6,
+    "substrateToEndBlockSeparation": 15,
+    "slabExtensionOnYMinSideOfMotorMountFace": 0,
+    "motorToSlabClearanceZ": 0,
+    "couplerLeadScrewEmbedment": 13,
+    "couplerShaftEmbedment": 13,
+    "couplerNonEmbeddedExtentY": 7.14375,
+    "couplerOuterDiameter": 19.05,
+    "couplerExtentY": 33.14375,
+    "motorMountScrewHexKeyClearanceDiameter": 4.5,
+    "motorShaftExtensionBeyondMotorMountFace": 24,
+    "couplerToEndblockMountPlateClearance": 8.5,
+    "couplerToMotorMountPlateClearance": 5,
+    "endblockToMotorSeparationY": 58.64375,
+    "leadScrewLockNutExtentY": 6.5,
+    "worstCaseLeadScrewClampExtentY": 13,
+    "endblockPocketExtentY": 8.5,
+    "worstCaseExtensionYOfYMaxLeadScrewClampBeyondEndblockMountFace": 4.5,
+    "endBlockButtGap": 2,
+    "endBlockToTrolleyClearance": 4,
+    "motorBracketFilletRadius": 3,
+    "limitSwitchBodyExtentX": 10.6,
+    "limitSwitchBodyExtentY": 19.8,
+    "limitSwitchBodyExtentZ": 6.4,
+    "limitSwitchMountHoleInterval": 9.5,
+    "limitSwitchMountHoleDiameter": 2.35,
+    "limitSwitchMountHoleOffsetX": 2.9,
+    "limitSwitchMountHoleOffsetY": 5.1,
+    "limitSwitchOP": 8.4,
+    "limitSwitchPT": 0.5,
+    "limitSwitchNubExtentZ": 3.2,
+    "hexKeys": {
+        "5mm": {
+            "widthAcrossFlats": 5
+        },
+        "2mm": {
+            "widthAcrossFlats": 2
+        }
+    },
+    "screws": {
+        "M6X1_socketHead": {
+            "hexKey": {
+                "widthAcrossFlats": 5
+            }
+        },
+        "M3X0.5_buttonHead": {
+            "hexKey": {
+                "widthAcrossFlats": 2
+            }
+        }
+    },
+    "endBlockMountScrew": {
+        "hexKey": {
+            "widthAcrossFlats": 5
+        }
+    },
+    "motorMountScrew": {
+        "hexKey": {
+            "widthAcrossFlats": 2
+        }
+    },
+    "endBlockMountScrewDriverTunnelDiameter": 6.9282032302755,
+    "yokePivotToRollerIntervalY": 22,
+    "yokeTabDiameter": 30,
+    "yokeMountHoleDiameter": 10,
+    "yokeToStockClearance": 2,
+    "rollerDiameter": 22,
+    "rollerBoreDiameter": 8,
+    "rollerToYokeMountHoleDiameter": 8,
+    "rollerInterval": 35.13,
+    "rollerSpacerDiameter": 10.2,
+    "rollerSpacerHeight": 0.8,
+    "theoreticalMinimumStockRadius": 9.7250868514465,
+    "yokeExtentX": 8,
+    "yokeTangExtentY": 60,
+    "yokeTangExtraExtentY": 3,
+    "yokeTangExtentZ": 25.4,
+    "yokeTangMountHolesCount": 3,
+    "yokeTangMountHoleDiameter": 6.35,
+    "yokeTangMountHolesInterval": 20,
+    "deadManRadius": 27,
+    "maximumAccomodatableDiameter": 114.3,
+    "yokeToTrolleyJoiningPlateThickness": 40,
+    "wayExtentY": 225,
+    "wayMountHolesIntervalX": 18,
+    "wayMountHolesIntervalY": 60,
+    "wayMountHolesCountY": 3,
+    "wayMountHolesOffsetFromYMaxPlane": 52.5,
+    "basePlateZMinExtensionZ": 10,
+    "basePlate": {
+        "extentX": 530,
+        "extentY": 20
+    },
+    "rotaryAxisToJoistSeparationZ": 130.1625,
+    "joistExtentZ": 60,
+    "basePlateToJoistMountHoles": {
+        "diameter": 10,
+        "count": 4,
+        "interval": 130,
+        "span": 390
+    },
+    "basePlateToWaysMountHolesDiameter": 4.2,
+    "basePlateToEndBlocksMountHolesDiameter": 9,
+    "pedestalExtentX": 74,
+    "pedestalExtentY": 46,
+    "steadyRestMounted": {
+        "trolley": {
+            "yMax": 968.4766
+        },
+        "yokeToTrolleyJoiningPlate": {
+            "yMin": 968.4766,
+            "yMax": 1008.4766
+        },
+        "yokeTang": {
+            "yMin": 968.4766,
+            "yMax": 976.4766,
+            "yMid": 972.4766
+        }
+    },
+    "yokeSeatMilling": {
+        "targetTrolleySeparationX": 68.4022,
+        "yokeToTrolleyJoiningPlatesHull": {
+            "extentX": 206.4022,
+            "extentY": 40,
+            "stock": {
+                "extentZ": 157.1625
+            }
+        }
+    }
+}
