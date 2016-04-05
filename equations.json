@@ -44,7 +44,7 @@
     "motorBracketFilletRadius": 3,
     "limitSwitchBodyExtentX": 10.6,
     "limitSwitchBodyExtentY": 19.8,
-    "limitSwitchBodyExtentZ": 6.4,
+    "limitSwitchBodyExtentZ": 20,
     "limitSwitchMountHoleInterval": 9.5,
     "limitSwitchMountHoleDiameter": 2.35,
     "limitSwitchMountHoleOffsetX": 2.9,
