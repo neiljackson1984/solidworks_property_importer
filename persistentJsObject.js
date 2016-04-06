@@ -140,7 +140,7 @@ var persistentSettings = function()
 	return 0;
 };
 
-persistentSettings.prototype.Init = function(urlOfFile)
+persistentSettings.prototype.init = function(urlOfFile)
 {
 	this.urlOfFile = urlOfFile;
 	var filesystem = new ActiveXObject("Scripting.FileSystemObject");
@@ -160,6 +160,8 @@ persistentSettings.prototype.Init = function(urlOfFile)
 	//this.flatDictionary = objectToFlatDictionary(this.settings_object, "");
 	this.statusText = "init called.";
 };
+
+persistentSettings.prototype.Init = persistentSettings.prototype.init;
 
 //When calling a function from VB, if the function has no arguments,
 //VB will tend to evaluate symbol as the sring containing the jscript code
