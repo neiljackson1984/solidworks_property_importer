@@ -151,8 +151,10 @@ persistentSettings.prototype.init = function(urlOfFile)
 		var inputFile = filesystem.OpenTextFile(this.urlOfFile,1);
 		this.settings_object = JSON.parse(inputFile.ReadAll());
 		inputFile.Close(); //it is good to close the file right away so other scripts can acccess it
+		this.FileExists = true;
 	} else { 
 		this.settings_object = new Object();
+		this.FileExists = false;
 		//we are not creating the file here; the file will be created when Commit() is called.
 	}
 		
