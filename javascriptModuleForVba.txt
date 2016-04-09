@@ -14,17 +14,14 @@ Public Const persistentJsObject_code = "" _
 
 
 Public Const macroFeatureIcon_highlighted_bmp = "" _
-     & "Qk2YAwAAAAAAADYAAAAoAAAAEAAAABIAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigAKigAKigAKigAKigAK/Dss/Dss/Dss/DssigAKigAKigAKigAKigAKAAAAAAAAigAKigAKigAKigAK/Dss/Dss9gD/9gD//Dss/Dss/DssigAKigAKigAKAAAAAAAAigAKigAK/Dss/Dss/Dss9gD/9gD/9gD/9gD/9gD//Dss/Dss/DssigAKAAAAAAAAigAK/Dss/Dss9gD/9gD/AAAAAAAA9gD/9gD/9gD/9gD/9gD//Dss/DssAAAAAAAA/Dss/Dss9gD/9gD/AAAAAAAAAAAAAAAAAAAA9gD/9gD/9gD/9gD//DssAAAAAAAA9gD/9gD/9gD/AAAAAAAA9gD/9gD/9gD/AAAAAAAAAAAA9gD/9gD/9gD/AAAAAAAA9gD/9gD/AAAAAAAA9gD/9gD/9gD/9gD/9gD/9gD/AAAAAAAA9gD/9gD/AAAAAAAA9gD/AAAAAAAA9gD/LNf8LNf8LNf89gD/9gD/9gD/9gD/AAAAAAAAAAAAAAAAAAAAAAAAAAAA9gD/LNf89gD/9gD/LNf8LNf8LNf89gD/9gD/9gD/9gD/AAAAAAAAAAAAAAAALNf89gD/LNf8LNf89gD/9gD/9gD/LNf8LNf89gD/9gD/9gD/AAAAAAAAAAAA9gD/LNf8LNf8LNf8LNf8LNf8LNf89gD/9gD/LNf8LNf89gD/AAAAAAAAAAAAAAAA9gD/9gD/9gD/LNf8LNf89gD/LNf8LNf89gD/9gD/LNf8LNf8AAAA9gD/AAAAAAAA9gD/9gD/9gD/9gD/LNf8LNf89gD/LNf8LNf8AAAAAAAA9gD/9gD/9gD/AAAAAAAALNf8LNf8" _
-     & "LNf8LNf89gD/LNf8LNf8AAAAAAAAAAAA9gD/9gD/9gD/9gD/AAAAAAAA9gD/9gD/9gD/LNf8LNf89gD/AAAAAAAA9gD/9gD/9gD/9gD/9gD//DssAAAAAAAALNf8LNf89gD/9gD/LNf8AAAAAAAA9gD/9gD/9gD/9gD/9gD//Dss/DssAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+     & ""
 
 
 Public Const macroFeatureIcon_regular_bmp = "" _
-     & "Qk2YAwAAAAAAADYAAAAoAAAAEAAAABIAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigAKigAKigAKigAKigAK/Dss/Dss/Dss/DssigAKigAKigAKigAKigAKAAAAAAAAigAKigAKigAKigAK/Dss/Dss/////////Dss/Dss/DssigAKigAKigAKAAAAAAAAigAKigAK/Dss/Dss/Dss/////////////////////Dss/Dss/DssigAKAAAAAAAAigAK/Dss/Dss////////AAAAAAAA/////////////////////Dss/DssAAAAAAAA/Dss/Dss////////AAAAAAAAAAAAAAAAAAAA/////////////////DssAAAAAAAA////////////AAAAAAAA////////////AAAAAAAAAAAA////////////AAAAAAAA////////AAAAAAAA////////////////////////AAAAAAAA////////AAAAAAAA////AAAAAAAA////LNf8LNf8LNf8////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAA////LNf8////////LNf8LNf8LNf8////////////////AAAAAAAAAAAAAAAALNf8////LNf8LNf8////////////LNf8LNf8////////////AAAAAAAAAAAA////LNf8LNf8LNf8LNf8LNf8LNf8////////LNf8LNf8////AAAAAAAAAAAAAAAA////////////LNf8LNf8////LNf8LNf8////////LNf8LNf8AAAA////AAAAAAAA////////////////LNf8LNf8////LNf8LNf8AAAAAAAA////////////AAAAAAAALNf8LNf8" _
-     & "LNf8LNf8////LNf8LNf8AAAAAAAAAAAA////////////////AAAAAAAA////////////LNf8LNf8////AAAAAAAA/////////////////////DssAAAAAAAALNf8LNf8////////LNf8AAAAAAAA/////////////////////Dss/DssAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+     & ""
 
 
 Public Const macroFeatureIcon_suppressed_bmp = "" _
-     & "Qk2YAwAAAAAAADYAAAAoAAAAEAAAABIAAAABABgAAAAAAAAAAAASCwAAEgsAAAAAAAAAAAAAcnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJymJiYmJiYmJiYmJiYmJiYw8PDw8PDw8PDw8PDmJiYmJiYmJiYmJiYmJiYcnJycnJymJiYmJiYmJiYmJiYw8PDw8PD////////w8PDw8PDw8PDmJiYmJiYmJiYcnJycnJymJiYmJiYw8PDw8PDw8PD////////////////////w8PDw8PDw8PDmJiYcnJycnJymJiYw8PDw8PD////////cnJycnJy////////////////////w8PDw8PDcnJycnJyw8PDw8PD////////cnJycnJycnJycnJycnJy////////////////w8PDcnJycnJy////////////cnJycnJy////////////cnJycnJycnJy////////////cnJycnJy////////cnJycnJy////////////////////////cnJycnJy////////cnJycnJy////cnJycnJy////w8PDw8PDw8PD////////////////cnJycnJycnJycnJycnJycnJycnJy////w8PD////////w8PDw8PDw8PD////////////////cnJycnJycnJycnJyw8PD////w8PDw8PD////////////w8PDw8PD////////////cnJycnJycnJy////w8PDw8PDw8PDw8PDw8PDw8PD////////w8PDw8PD////cnJycnJycnJycnJy////////////w8PDw8PD////w8PDw8PD////////w8PDw8PDcnJy////cnJycnJy////////////////w8PDw8PD////w8PDw8PDcnJycnJy////////////cnJycnJyw8PDw8PD" _
-     & "w8PDw8PD////w8PDw8PDcnJycnJycnJy////////////////cnJycnJy////////////w8PDw8PD////cnJycnJy////////////////////w8PDcnJycnJyw8PDw8PD////////w8PDcnJycnJy////////////////////w8PDw8PDcnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJycnJyAAA="
+     & ""
 
 
