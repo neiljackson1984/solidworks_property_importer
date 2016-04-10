@@ -1,0 +1,34 @@
+1
+Dim LastRun As String
+Dim lSmalls As Long
+Dim PropExist As Long
+Dim PMan As CustomPropertyManager
+Set PMan = Part.Extension.CustomPropertyManager("")
+LastRun = PMan.Get("LoopStop")
+If LastRun Like "" Then LastRun = 0
+If (Timer < LastRun + 2) Then Exit Sub
+PMan.Delete "LoopStop"
+PMan.Add2 "LoopStop", swCustomInfoText, Timer
+Dim dSmall As Double
+dSmall = Part.Extension.CustomPropertyManager("").Get("SmallFaceSize")
+Dim vBods As Variant
+Dim vBod As Variant
+Dim vFaces As Variant
+Dim vFace As Variant
+lSmalls = 0
+Part.ClearSelection2 True
+vBods = Part.GetBodies2(swAllBodies, True)
+For Each vBod In vBods
+ vFaces = vBod.GetFaces
+ For Each vFace In vFaces
+  If vFace.GetArea < (dSmall / 1000000) Then
+   vFace.Select True
+   lSmalls = lSmalls + 1
+  End If
+ Next vFace
+Next vBod
+If lSmalls > 0 Then
+ Part.Extension.ShowSmartMessage lSmalls & " faces under " & dSmall & "mm^2", 5000, True, True
+Else
+ Part.Extension.ShowSmartMessage "No small faces", 5000, True, True
+End If
