@@ -1,0 +1,27 @@
+0
+Dim mm
+Select Case Part.LengthUnit
+   Case 0
+      mm = 1
+   Case 3
+      mm = 1 / 25.4
+   Case Else
+End Select
+
+0:: Dim mm:: mm=55
+
+
+88::MsgBox("ahoy")::MsgBox("there")::Int(88)
+
+88:: MsgBox ("ahoy")
+
+0
+Dim mm
+If Part.LengthUnit = 0 Then
+	mm = 1
+Else If Part.LengthUnit = 3 Then
+	mm = 1 / 25
+End If
+
+
+Iif(Part.LengthUnit = 0, 1, Iif(Part.LengthUnit = 3, 1 / 25, 77))
