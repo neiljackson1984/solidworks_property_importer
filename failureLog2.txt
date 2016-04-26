@@ -1,0 +1,200 @@
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 382 17:28:22: motorMountPlate1^stage2.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 383 17:28:22: motorMountPlate1^stage2.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 384 17:28:22: supportAngle^stage2.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 385 17:28:22: supportAngle^stage2.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 386 17:28:22: supportAngle^stage2.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 387 17:28:22: 91294A218.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 388 17:28:22: 91294A218.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 389 17:28:22: 91294A218.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 390 17:28:22: 1.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 391 17:28:22: 1.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 392 17:28:22: 1.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 393 17:28:22: 2_6.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 394 17:28:22: 2_6.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 395 17:28:22: 2_6.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 396 17:28:22: leadNut^leadNutWithBracket_stage2.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 397 17:28:22: ZaxisTrolleyMountingBlock.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 398 17:28:22: ZaxisTrolleyMountingBlock.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 399 17:28:22: ZaxisTrolleyMountingBlock.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 400 17:28:22: leadNutWithBracket^stage2.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 401 17:28:22: Motor Mount Plate.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 402 17:28:22: Motor Mount Plate.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 403 17:28:23: Motor Mount Plate.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 404 17:28:23: Animatics SM23165x.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 405 17:28:23: Animatics SM23165x.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 406 17:28:23: Animatics SM23165x.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 407 17:28:23: IP HOUSING 10-313-321-1 WITH BOLT CIRCLE 2.625_HOUSING.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 408 17:28:23: IP HOUSING 10-313-321-1 WITH BOLT CIRCLE 2.625_HOUSING.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 409 17:28:23: IP HOUSING 10-313-321-1 WITH BOLT CIRCLE 2.625_HOUSING.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 410 17:28:23: NTP23DS.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 411 17:28:23: NTP23DS.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 412 17:28:23: NTP23DS.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 413 17:28:23: SLEEVE IP 05-113-330-1_6.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 414 17:28:23: SLEEVE IP 05-113-330-1_6.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 415 17:28:23: SLEEVE IP 05-113-330-1_6.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 416 17:28:23: NTP23-030-0-RM060-1.SLDASM: swAssembly_RegenPostNotify2
+POSTED from 62612: 417 17:28:23: Nema23 - Animatics and Micron Assembly.SLDASM: swAssembly_RegenPostNotify2
+POSTED from 62612: 418 17:28:23: 20Tooth20PitchGear-0.5inBore.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 419 17:28:23: 20Tooth20PitchGear-0.5inBore.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 420 17:28:23: 20Tooth20PitchGear-0.5inBore.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 421 17:28:23: washer.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 422 17:28:23: washer.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 423 17:28:23: washer.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 424 17:28:23: radial_bearing.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 425 17:28:23: radial_bearing.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 426 17:28:23: radial_bearing.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 427 17:28:23: radial_bearing holder.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 428 17:28:23: radial_bearing holder.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 429 17:28:24: radial_bearing holder.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 430 17:28:24: radial_bearing assembly.SLDASM: swAssembly_RegenPostNotify2
+POSTED from 62612: 431 17:28:24: kentCarriage.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 432 17:28:24: carriage^stage2.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 433 17:28:24: 2_5.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 434 17:28:24: 2_5.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 435 17:28:24: 2_5.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 436 17:28:24: 3_2.sldprt: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 437 17:28:24: 3_2.sldprt: Ran readExternalParameters, result was -1.
+POSTED from 62612: 438 17:28:24: 3_2.sldprt: swPart_RegenPostNotify2
+POSTED from 62612: 439 17:28:24: thkStyleCarriage.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 440 17:28:24: way^stage2.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 441 17:28:24: Trolley Plate.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 442 17:28:24: Trolley Plate.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 443 17:28:24: Trolley Plate.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 444 17:28:24: 91294A224.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 445 17:28:24: 91294A224.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 446 17:28:24: 91294A224.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 447 17:28:24: 91294A251.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 448 17:28:24: 91294A251.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 449 17:28:24: 91294A251.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 450 17:28:24: V_113_1C4_ACTUATOR.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 451 17:28:24: V_113_1C4_ACTUATOR.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 452 17:28:25: V_113_1C4_ACTUATOR.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 453 17:28:25: V_113_1C4_BASE.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 454 17:28:25: V_113_1C4_BASE.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 455 17:28:25: V_113_1C4_BASE.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 456 17:28:25: V_113_1C4.SLDASM: swAssembly_RegenPostNotify2
+POSTED from 62612: 457 17:28:25: z-limit-switch-bracket.SLDPRT: swPart_RegenNotify
+result of reading property externalParametersConfig.file: swCustomInfoGetResult_NotPresent (Custom property does not exist)
+externalParametersFilePath: 
+resolvedValue: 
+wasResolved: True
+Error: no property named "externalParametersConfig.file" exists.
+POSTED from 62612: 458 17:28:25: z-limit-switch-bracket.SLDPRT: Ran readExternalParameters, result was -1.
+POSTED from 62612: 459 17:28:25: z-limit-switch-bracket.SLDPRT: swPart_RegenPostNotify2
+POSTED from 62612: 460 17:28:25: limitSwitch^stage2.sldasm: swAssembly_RegenPostNotify2
+POSTED from 62612: 461 17:28:25: stage2.sldasm: swAssembly_RegenPostNotify2
+  Config       = Default
+    ShowConfig = False
+    Rebuild    = True
+    Time       = 3.617188 s
+
