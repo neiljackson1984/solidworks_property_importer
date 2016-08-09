@@ -93,50 +93,78 @@ function objectToFlatDictionary(x, keyPrefix)
 			objectToFlatDictionary(value, keyPrefix + key + ".");
 			//objectToFlatDictionary.dictionaryData["" + keyPrefix + key + "OBJECT"] = "<OBJECT>";
 		} else if (isArray(value)) { 
-			//objectToFlatDictionary.dictionaryData[keyPrefix + key] = JS2VBArray(value);
-			//for (var arrayKey in value.keys())
-			// for (var arrayKey in value)
-			// {
-				// objectToFlatDictionary(value[arrayKey], keyPrefix + key + "[" + arrayKey + "]" + ".");
-				// objectToFlatDictionary(value[arrayKey], keyPrefix + key + "[" + arrayKey + "]" + ".");
-				// objectToFlatDictionary.dictionaryData[keyPrefix + key + "[" + arrayKey + "]"] = "ahoy there";
-			// }
-			// objectToFlatDictionary.dictionaryData["ahoy"] = "ahoy there";
-			// objectToFlatDictionary.dictionaryData["arrayLength"] = value.length;
-			// objectToFlatDictionary.dictionaryData["typeofstring"] = typeof("abc");
-			// objectToFlatDictionary.dictionaryData["isobject_string"] = isObject("abc");
-			// objectToFlatDictionary.dictionaryData["isarray_string"] = isArray("abc");
-			
-			
-			//test to see how this will handle sparse arrays
-			// // value = new Array();
-			// // value[4] = 123.456;
-			// // value[17] = 234.567;
-			// // value[-3] = 345.678;
-			// // value['foo'] = 456.789;
-			//this worked as desired, producing two parameters, exactly as expected.
-			//The "-3" key was not heeded unless I changed the initializer of the below FOR loop to start i at less than or equal to -3.
-			// (value.length is 18 (i.e. highestNaturalNumberIndex + 1)).  The -3 and 'foo' keys have no effect on the value of value.length.
-			
-			//now something harder:
-			// value = new Array();
-			// value["ahoy"] = 123.456;
-			// value["there"] = 234.567;
-			//this did not cause any errors, but neither of the two parameters was extracted.
-			
-			
-			//we construct the object tempObject, whose keys are the rather strange "[0]", "[1]", "[2]", etc.
-			var tempObject = new Object();
-			var length;
-			length = value.length;
-			for(var i = 0; i<length; i++)
-			{
-				if(i in value) 
-				{
-					tempObject["[" + i + "]"] = value[i];
-				}
+			{//technically correct method. Rejected because it does not help me.
+				//this is probably the technically most correct way to do the conversion, because it will result in a vba array in the resulting vba dictionary object.
+				// However, solidworks custom properties have no concept of an array, so a vba array value does not do us much good.
+				//objectToFlatDictionary.dictionaryData[keyPrefix + key] = JS2VBArray(value);
 			}
-			objectToFlatDictionary.dictionaryData[keyPrefix + key + "." + "length"] = value.length; //for convenience, we include the array length as a parameter that will appear amongst the Solidworks custom properties.
+
+			//we construct the object tempObject, whose keys are the rather strange "[0]", "[1]", "[2]", etc.
+			
+			{ //test cases
+				// // //test to see how this will handle sparse arrays
+				// // // // value = new Array();
+				// // // // value[4] = 123.456;
+				// // // // value[17] = 234.567;
+				// // // // value[-3] = 345.678;
+				// // // // value['foo'] = 456.789;
+				// // //this worked as desired, producing two parameters, exactly as expected.
+				// // //The "-3" key was not heeded unless I changed the initializer of the below FOR loop to start i at less than or equal to -3.
+				// // // (value.length is 18 (i.e. highestNaturalNumberIndex + 1)).  The -3 and 'foo' keys have no effect on the value of value.length.
+				
+				// // //now something harder:
+				// // // value = new Array();
+				// // // value["ahoy"] = 123.456;
+				// // // value["there"] = 234.567;
+				// // //this did not cause any errors, but neither of the two parameters was extracted.
+				
+				// // //ideally, in the case where
+					// value = new Array();
+					// value[4] = 123.456;
+					// value[17] = 234.567;
+					// value[-3] = 345.678;
+					// value['foo'] = 456.789;
+					// value["ah\\oy"] = 123.456;
+					// value["there"] = 234.567;
+					// value[12.3] = 234.567;
+				// // // I would like to regard the length of the array (perhaps I should call it the 'count' of the array, to be in line with php parlance) as being 7,
+				// // // and I would like to pick up all of the keys
+			}
+			
+			
+			{ // This is a more complete options, but rejected in favor of a faster option that will work for just about everything I will ever do.
+				// // // // var tempObject = new Object();
+				// // // // var count = 0;
+				// // // // var arrayKeys;
+				// // // // arrayKeys = new Array();
+				// // // // for (var arrayKey in value)
+				// // // // {
+					// // // // //arrayKeys[] = arrayKey;
+					// // // // arrayKeys.push(arrayKey);
+					// // // // count++;
+					// // // // tempObject["[" + ( parseInt(arrayKey) == arrayKey ? arrayKey : JSON.stringify(arrayKey) ) + "]"] = value[arrayKey];
+				// // // // }
+				// // // // objectToFlatDictionary.dictionaryData[keyPrefix + key + "." + "arraykeys"] = JSON.stringify(arrayKeys); 
+				// // // // objectToFlatDictionary.dictionaryData[keyPrefix + key + "." + "count"] = count; //for convenience, we include the array length as a parameter that will appear amongst the Solidworks custom properties.
+			}
+			
+			{ //good working strategy
+				//this strategy will only pick up keys that are nonegative natural numbers, but this is sufficient for just about everything I will ever want to do with arrays.
+				var tempObject = new Object();
+				var length;
+				var count = 0;
+				length = value.length;
+				for(var i = 0; i<length; i++)
+				{
+					if(i in value) 
+					{
+						tempObject["[" + i + "]"] = value[i];
+						count++;
+					}
+				}
+				objectToFlatDictionary.dictionaryData[keyPrefix + key + "." + "length"] = value.length; //for convenience, we include the array length as a parameter that will appear amongst the Solidworks custom properties.
+				//objectToFlatDictionary.dictionaryData[keyPrefix + key + "." + "count"] = count; 
+			}
 			
 			//Then we invoke objectToFlatDictionary() upon tempObject almost the same way as in the case where value is an object.  The only difference in this case (that is, when value is an array),
 			// is that we omit the terminal "." from the second argument to objectToFlatDictionary.  This will mean that, instead of ending up with, for instance,
@@ -156,6 +184,11 @@ function objectToFlatDictionary(x, keyPrefix)
 function isObject(x)
 {
 	return  (typeof x  === "object") && (x !== null) && !isArray(x);
+}
+
+function isString(x)
+{
+	return  (typeof x  === "string") && (x !== null);
 }
 
 //This is really just a stub: it returns true if we can call an "Items()" method on the argument without exception and false otherwise.  IT does not, as of yet, truly check if the argument is an activex dictionary
